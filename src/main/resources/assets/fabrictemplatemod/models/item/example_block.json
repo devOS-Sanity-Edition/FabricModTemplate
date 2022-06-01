@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "fabrictemplatemod:block/example_block"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "fabrictemplatemod:block/example_block"
+        }
+    }
+}
