@@ -3,7 +3,7 @@
   "id": "fabrictemplatemod",
   "version": "${version}",
 
-  "name": "Fabric Template Mod",
+  "name": "Fabric Template Mod - Server Side Only",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "devOS: Sanity Edition",
@@ -22,8 +22,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "one.devos.nautical.fabrictemplatemod.FabricTemplateMod"
+    "server": [
+      "one.devos.nautical.fabrictemplatemod.FabricTemplateModServer"
     ]
   },
   "mixins": [

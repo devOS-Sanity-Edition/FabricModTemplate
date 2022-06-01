@@ -10,9 +10,7 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
-repositories {
-	maven { url "https://maven.wispforest.io" }
-}
+repositories { }
 
 dependencies {
 	// To change the versions see the gradle.properties file
@@ -21,10 +19,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	// owolib
-	modImplementation(include("io.wispforest:owo-lib:${project.owo_version}"))
+	// modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
 processResources {
